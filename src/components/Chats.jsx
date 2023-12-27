@@ -10,7 +10,7 @@ const Chats = () => {
         <div className="logo-tab">ChatApp</div>
         <div className="logout-tab">Logout</div>
       </div>
-      <ChatEngine />
+      <ChatEngine height="calc(100vh - 66px)" />
     </div>
   );
 };
